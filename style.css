@@ -391,6 +391,11 @@ body{
 	.card-resultado-encontrado {
 		height: 70%;
 	}
+
+	.coluna1, .coluna3 {
+   		 margin-left: 3%;
+   		 margin-right: 3%
+	}
 }
 
 @media(max-width: 550px){
