@@ -1,0 +1,415 @@
+
+*, *:before, *:after {
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+@font-face {
+	font-family: "Sawasdee";
+	src: url("./fonts/sawasdee-webfont.eot");
+	src: url("./fonts/sawasdee-webfont.eot?#iefix") format('embedded-opentype'),
+	     url("./fonts/Sawasdee.ttf") format('truetype');
+}
+
+@font-face {
+	font-family: "Nouvelle Vague";
+	src: url("./fonts/nouvelle_vague_final-webfont.eot");
+	src: url("./fonts/nouvelle_vague_final-webfont.eot?#iefix") format('embedded-opentype'),
+	     url("./fonts/nouvelle_vague_final.ttf") format('truetype');
+}
+
+@font-face {
+	font-family: "Code_Light_Font";
+	src: url("./fonts/code_light-webfont.eot");
+	src: url("./fonts/code_light-webfont.eot?#iefix") format('embedded-opentype'),
+	     url("./fonts/code_light-webfont.ttf") format('truetype');
+}
+
+@font-face {
+	font-family: "Pacifico";
+	src: url("./fonts/pacifico-webfont.eot");
+	src: url("./fonts/pacifico-webfont.eot?#iefix") format('embedded-opentype'),
+	     url("./fonts/Pacifico.ttf") format('truetype');
+
+}
+
+body{
+	margin: 0;
+	font-size: 16px;
+}
+
+#container{
+	background-repeat-x: initial;
+	background-repeat-y: initial;
+	background-position-x: 0%;
+	background-position-y: 20%;
+	background-image: url("./imagens/ImagemTCCxXx.svg");
+	height: auto;
+	position: relative;
+	overflow-x: hidden;
+	overflow-y: hidden;
+	background-size: cover;
+	padding-top: 20px;
+}
+
+#camposLogoEInputPesquisa{
+	display: inline-block;
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+#inputPesquisaTCC{
+	width: 85%;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-size: 1.3em;
+	font-family: Code_Light_Font;
+	border-left-color: rgb(255, 0, 0);
+	border-left-width: thick;
+	border-bottom: 0px;
+	border-top: 0px;
+	border-right: 0px;
+	border-left: 0px;
+	padding-left: 5px;
+	outline-color: rgb(255, 0, 0);
+	height:	47px;
+	display: inline-block;
+}
+
+#linhaLogoECampoPesquisa{
+	height: auto;
+	width: 100%/
+}
+
+.logo{
+	width: 20%;
+	font-size: 2em;
+	font-weight: bold;
+	color: rgb(255, 0, 0);
+	text-align: center;	
+	font-family: Nouvelle Vague;
+	display: inline-block;/
+}
+
+.linhaLogo{
+	margin-top: 1px;
+	margin-bottom: 1px;
+	width: 100px;
+	height: 5px;
+	background-color: rgb(255, 0, 0);	
+	border-width: 0px;
+}
+
+.textoLogoTCC{
+	color: #fff;
+	font-size: 1.6em;
+}
+
+.linhaAlfa{
+	background-color: rgb(255, 255, 255);		
+}
+
+#pesquisarTCC{
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+#containerTituloTCC{
+	text-align: center;
+	margin: 12px;
+}
+
+.botao{
+	color: #fff;
+	width: auto;
+	border-radius: 3px;
+	cursor: pointer;
+	text-decoration: none;
+	padding: .3em 1.8em .3em 1.8em;
+	border: 2px solid #fff;
+	background: transparent;
+	font-weight: bold;
+	font-size: 1.5rem;
+	outline: none;
+}
+
+.botao:hover{
+	background: #fff;
+	color: #000;
+}
+
+#botaoPesquisar{
+	outline: none;
+}
+
+#containerBotoes{
+	width: 100%;
+	text-align: center;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+
+.textoTitulo{
+	color: #fff;
+}
+
+#tituloTCC{
+	font-size: 2.5em;
+	font-weight: bold;
+	font-family: Pacifico;
+}
+
+#subTituloTCC{
+	font-size: 1.2em;
+	font-family: Sawasdee;
+}
+
+/*INPUT COM PESQUISA*/
+
+#campoPesquisaTCC {
+	width: 70%;
+	height: 100%;
+	margin-top: 1.5%;
+	display: inline-block;
+}
+
+#campoPesquisaTCC input {
+	display: block;
+	float: left;
+	height: 60px;
+	line-height: 40px;
+}
+
+#campoPesquisaTCC button {
+	display: block;
+	height: 60px;
+	margin: 0;
+	margin-left: 160px;
+	padding: 4px;
+	width: 15%;
+	background: rgb(255,0,0);
+	border: 0;
+}
+
+#campoPesquisaTCC button img {
+	height: 35px;
+	width: 35px;
+}
+
+@media(max-width: 800px){
+	#camposLogoEInputPesquisa {
+		display: block;
+		margin: 0%;
+		width: 100%;
+	}	
+	.logo{
+		width: 100%;
+	}
+	#campoPesquisaTCC {
+		width: 100%;
+	}
+	#inputPesquisaTCC{
+		width: 91%;
+	}
+	#linhaLogoECampoPesquisa{
+		height: 200px;
+	}
+	#campoPesquisaTCC button{
+		width: 9%;
+	}
+	#container{
+		background-position: center;
+	}
+}
+
+@media(max-width: 500px){
+	#inputPesquisaTCC{
+		width: 84%;
+	}
+	
+	#campoPesquisaTCC button{
+		width: 16%;
+	}
+}
+
+@media(min-width: 1024px){
+	#tituloTCC{
+		font-size: 3em;
+	}
+
+	#subTituloTCC{
+		font-size: 1.5em;
+	}
+
+	#containerBotoes {
+		font-size: 1.5em;
+	}
+}
+
+@media(max-width: 450px){
+	.botao{
+		width: 80%;
+		margin-bottom: 20px;
+		font-size: 1.4rem;
+	}
+}	
+
+#tituloResultados{
+	font-size: 2.5em;
+	font-weight: bold;
+	font-family: Pacifico;
+	color: #000;
+	text-align: center;
+}
+
+#resultadoPesquisa{
+	background-color: bisque;
+}
+
+#containerResultados{
+	width: 100%;
+	height: auto;
+	display: block;
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-bottom: 5%;
+}
+
+.textoLogoTCCResultado{
+	color: rgb(255, 0, 0);
+}
+
+.logo-card{
+	font-size: 0.8em;
+	margin-top: 3%;
+	text-align: center;
+	padding-top: 10%;
+	height: 100px;
+}
+
+.linha-logo-card{
+	width: 40px;
+}
+
+.titulo-tccs-encontrados{
+	background: rgb(255, 0, 0);
+	text-align: center;
+	font-size: 1.2rem;
+	font-family: serif;
+	color: #fff;
+	height: 7rem;
+	padding: 5px;
+}
+
+.barra-botoes-card{
+	text-align: center;
+	height: 35%;
+	padding-top: 25%;
+	position: relative;
+}
+
+.botao-detalhes-card{
+	text-decoration: none;
+	/*color: rgb(255, 0, 0);
+	font-family: sans-serif;*/
+	color: #bbb;
+	width: auto;
+	border-radius: 0px;
+	cursor: pointer;
+	padding: .3em 0.5em .3em 0.5em;
+	border: none;
+	font-size: 1rem;
+	outline: none;
+	position: relative;
+	float: right;
+	transition: all 1s ease;
+	font-family: RobotoDraft, 'Helvetica Neue', Helvetica, Arial;
+}
+
+.botao-detalhes-card:hover{
+	background: rgba(255,0,0,1);
+	color: #ffffff;
+}
+
+.card-resultado-encontrado{
+	width: 100%;
+	background: #fff;
+	height: 60%;
+	box-shadow: 0.5px 1px 3px 1px rgba(0, 0, 0, 0.3555);
+	border-radius: 2.5px;
+	margin-top: 10%;
+}
+
+.linhaGridResultado{
+	width: 100%;
+	display: inline-block;
+}
+
+.par-coluna{
+	display: inline-block;
+	width: 50%;
+}
+
+.coluna{
+	width: 44%;		
+	display: inline-block;
+}
+
+.coluna1, .coluna3{
+	margin-right: 4%;
+}
+
+.coluna1, .coluna3{
+	margin-left: 2%; 
+}
+
+.barra-botoes-card hr{
+	margin: 0px;
+
+}
+
+.barra-rodape {
+	height: 38px;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+}
+
+@media(max-width: 1000px){
+	
+	.linhaGridResultado{
+		display: inline-block;
+	}
+
+	.par-coluna{
+		width: 100%;
+	}
+
+	.card-resultado-encontrado {
+		height: 70%;
+	}
+}
+
+@media(max-width: 550px){
+	
+	.linhaGridResultado{
+		display: inline-block;
+	}
+
+	.par-coluna{
+		display: inline-block;
+
+	}
+
+	.coluna{
+		width: 100%;
+		margin: 0px;
+	}
+
+	.card-resultado-encontrado {
+		height: 70%;
+	}
+}

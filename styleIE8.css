@@ -1,0 +1,74 @@
+body{
+	margin: 0;
+	font-size: 16px;
+}
+
+#container{
+	background-image: url("./imagens/ImagemTCCIE8.png");
+	background-position-y: center;
+	background-position-x: center;
+}
+
+.botao-detalhes-card:hover{
+	background: red;
+	color: #ffffff;
+}
+
+#linhaLogoECampoPesquisa{
+	position: relative;
+	text-align: center;
+	height: auto;
+}
+
+#camposLogoEInputPesquisa{
+	height: auto;	
+}
+
+#inputPesquisaTCC{
+	width: 85%;
+}
+
+.logo{
+	width: 100%;
+	text-align: center;
+}
+
+.botao{
+	font-size: 1.5em;
+	width: 250px;
+}
+
+#botaoUpload{
+	margin-bottom: 5px;
+}
+
+#campoPesquisaTCC {
+	width: 100%;
+	height: 100%;
+	padding-right: 5%;
+	padding-left: 5%;
+	margin-top: 1.5%;
+	text-align: center;
+}
+
+.linhaGridResultado .botao{
+	width: auto;
+	font-size: 1em;
+}
+
+.p-linhaGridResultado .par-coluna{
+	width: 100%;
+}
+
+.p-linhaGridResultado .coluna{
+	width: 100%;
+	margin: 0px;
+}
+
+.m-linhaGridResultado .par-coluna{
+	width: 100%;
+}
+
+.g-linhaGridResultado .coluna3{
+	margin-left: 3%;
+}
