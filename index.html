@@ -19,11 +19,20 @@
 
 		<!--[if SafMob]>
     		#container{
-				background-image: url("./imagens/ImagemTCCIE8.png");
-				background-position-y: center;
-				background-position-x: center;
+				background: url('http://dev.w3.org/SVG/tools/svgweb/samples/svg-files/Steps.svg') no-repeat center center fixed;
 			}
 		<![endif]-->
+
+		<!--[if IE 9]>
+			<style type="text/css">
+				#container{
+					background-image: url("./imagens/ImagemTCCIE8.png");
+	                background-position-y: center;
+	                background-position-x: center;
+	                background-size: none;
+				}
+			</style>
+		<![endif]-->		
 
 	</head> 
 	<body>
