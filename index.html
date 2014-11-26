@@ -28,6 +28,13 @@
 			</style>
 		<![endif]-->
 
+		<script type="text/javascript">
+			if((navigator.userAgent.match(/iPhone/i)) || (navigator.userAgent.match(/iPod/i))) {
+				document.getElementById('container').setAttribute('class', 'img-iphone');
+			    document.getElementById('container').id = "";
+			}
+		</script>
+
 	</head> 
 	<body>
 		<div id="container"><!--

@@ -417,3 +417,17 @@ body{
 		height: 70%;
 	}
 }
+
+.img-iphone{
+	background: url("./imagens/ImagemTCCIE8.png");
+    background-position-y: center;
+	background-position-x: center;
+	background-size: 0 0 100%;
+	background-repeat-x: initial;
+	background-repeat-y: initial;
+	height: auto;
+	position: relative;
+	overflow-x: hidden;
+	overflow-y: hidden;
+	padding-top: 20px;
+}
