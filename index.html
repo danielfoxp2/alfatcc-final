@@ -27,16 +27,6 @@
 				}
 			</style>
 		<![endif]-->
-
-		<script type="text/javascript">
-			alert(navigator.userAgent);
-			
-			if((navigator.userAgent.match(/iPhone/i)) || (navigator.userAgent.match(/iPad/i))) {
-				document.getElementById('container').setAttribute('class', 'img-iphone');
-			    document.getElementById('container').id = "";
-			}
-		</script>
-
 	</head> 
 	<body>
 		<div id="container"><!--
@@ -233,5 +223,14 @@
 			--></div>
 			</div>
 		</div>
+		
+		<script type="text/javascript">
+			alert(navigator.userAgent);
+			
+			if((navigator.userAgent.match(/iPhone/i)) || (navigator.userAgent.match(/iPad/i))) {
+				document.getElementById('container').setAttribute('class', 'img-iphone');
+			    document.getElementById('container').id = "";
+			}
+		</script>
 	</body>
 </html>
